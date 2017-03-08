@@ -8,7 +8,7 @@
 ![WYPickerViews.gif](http://upload-images.jianshu.io/upload_images/1116725-828c8203e4e2ea5e.gif?imageMogr2/auto-orient/strip)
 ***
 # 3、使用方法
-（1）下载，直接将 Demo 里的 **WYPickerViews** 文件夹拖入项目中，也可将 **WYTableViewCellWithLabel** 和 **WYTableViewCellWithImageView** 拖入项目中（或者自定义自己的 cell）；
+（1）下载 [WYPickerViews](https://github.com/yiyi0202/WYPickerViews)，直接将 Demo 里的 **WYPickerViews** 文件夹拖入项目中，也可将 **WYTableViewCellWithLabel** 和 **WYTableViewCellWithImageView** 拖入项目中（或者自定义自己的 cell）；
 （2）在使用 pickerView 的控制器里导入头文件：
 ```
 #import "WYGenderPickerView.h"
