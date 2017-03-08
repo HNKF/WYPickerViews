@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DE03EB11E6E4AA600BBFE4F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03EB01E6E4AA600BBFE4F /* main.m */; };
+		7DE03EB41E6E4AA600BBFE4F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03EB31E6E4AA600BBFE4F /* AppDelegate.m */; };
+		7DE03EBA1E6E4AA600BBFE4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE03EB81E6E4AA600BBFE4F /* Main.storyboard */; };
+		7DE03EBC1E6E4AA600BBFE4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DE03EBB1E6E4AA600BBFE4F /* Assets.xcassets */; };
+		7DE03EBF1E6E4AA600BBFE4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DE03EBD1E6E4AA600BBFE4F /* LaunchScreen.storyboard */; };
+		7DE03ED41E6E4AF900BBFE4F /* CityData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DE03EC71E6E4AF900BBFE4F /* CityData.plist */; };
+		7DE03ED51E6E4AF900BBFE4F /* WYBirthdayPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03EC91E6E4AF900BBFE4F /* WYBirthdayPickerView.m */; };
+		7DE03ED61E6E4AF900BBFE4F /* WYCityPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03ECB1E6E4AF900BBFE4F /* WYCityPickerView.m */; };
+		7DE03ED71E6E4AF900BBFE4F /* WYGenderPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03ECD1E6E4AF900BBFE4F /* WYGenderPickerView.m */; };
+		7DE03ED81E6E4AF900BBFE4F /* WYHeightPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03ECF1E6E4AF900BBFE4F /* WYHeightPickerView.m */; };
+		7DE03ED91E6E4AF900BBFE4F /* WYTableViewCellWithLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03ED31E6E4AF900BBFE4F /* WYTableViewCellWithLabel.m */; };
+		7DE03EDC1E6E4B1200BBFE4F /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03EDB1E6E4B1200BBFE4F /* TableViewController.m */; };
+		7DE03EE81E6E919000BBFE4F /* WYLongTextInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE03EE71E6E919000BBFE4F /* WYLongTextInputView.m */; };
+		7DE43AE31E6F8A5100D1F717 /* NicknameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE43AE21E6F8A5100D1F717 /* NicknameViewController.m */; };
+		7DE43AE61E6F8AF700D1F717 /* 返回@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE43AE41E6F8AF700D1F717 /* 返回@2x.png */; };
+		7DE43AE71E6F8AF700D1F717 /* 返回@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DE43AE51E6F8AF700D1F717 /* 返回@3x.png */; };
+		7DE43AEA1E6F991500D1F717 /* WYTableViewCellWithBigLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE43AE91E6F991500D1F717 /* WYTableViewCellWithBigLabel.m */; };
+		7DE43AED1E6F9AD800D1F717 /* SignatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE43AEC1E6F9AD800D1F717 /* SignatureViewController.m */; };
+		7DE43AF01E6FA86000D1F717 /* WYTableViewCellWithBigImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE43AEF1E6FA86000D1F717 /* WYTableViewCellWithBigImageView.m */; };
+		7DE43AF71E6FB08200D1F717 /* WYTableViewCellWithImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE43AF61E6FB08200D1F717 /* WYTableViewCellWithImageView.m */; };
+		7DE43AF91E6FB47000D1F717 /* 头像占位图.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DE43AF81E6FB47000D1F717 /* 头像占位图.jpg */; };
+		7DE43AFB1E6FD27200D1F717 /* WYPickerViews.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7DE43AFA1E6FD27200D1F717 /* WYPickerViews.gif */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7DE03EAC1E6E4AA600BBFE4F /* WYEditInfoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYEditInfoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE03EB01E6E4AA600BBFE4F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DE03EB21E6E4AA600BBFE4F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7DE03EB31E6E4AA600BBFE4F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7DE03EB91E6E4AA600BBFE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7DE03EBB1E6E4AA600BBFE4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7DE03EBE1E6E4AA600BBFE4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7DE03EC01E6E4AA600BBFE4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE03EC71E6E4AF900BBFE4F /* CityData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CityData.plist; sourceTree = "<group>"; };
+		7DE03EC81E6E4AF900BBFE4F /* WYBirthdayPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYBirthdayPickerView.h; sourceTree = "<group>"; };
+		7DE03EC91E6E4AF900BBFE4F /* WYBirthdayPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYBirthdayPickerView.m; sourceTree = "<group>"; };
+		7DE03ECA1E6E4AF900BBFE4F /* WYCityPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYCityPickerView.h; sourceTree = "<group>"; };
+		7DE03ECB1E6E4AF900BBFE4F /* WYCityPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYCityPickerView.m; sourceTree = "<group>"; };
+		7DE03ECC1E6E4AF900BBFE4F /* WYGenderPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYGenderPickerView.h; sourceTree = "<group>"; };
+		7DE03ECD1E6E4AF900BBFE4F /* WYGenderPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYGenderPickerView.m; sourceTree = "<group>"; };
+		7DE03ECE1E6E4AF900BBFE4F /* WYHeightPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYHeightPickerView.h; sourceTree = "<group>"; };
+		7DE03ECF1E6E4AF900BBFE4F /* WYHeightPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYHeightPickerView.m; sourceTree = "<group>"; };
+		7DE03ED21E6E4AF900BBFE4F /* WYTableViewCellWithLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTableViewCellWithLabel.h; sourceTree = "<group>"; };
+		7DE03ED31E6E4AF900BBFE4F /* WYTableViewCellWithLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewCellWithLabel.m; sourceTree = "<group>"; };
+		7DE03EDA1E6E4B1200BBFE4F /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		7DE03EDB1E6E4B1200BBFE4F /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		7DE03EE61E6E919000BBFE4F /* WYLongTextInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYLongTextInputView.h; sourceTree = "<group>"; };
+		7DE03EE71E6E919000BBFE4F /* WYLongTextInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYLongTextInputView.m; sourceTree = "<group>"; };
+		7DE43AE11E6F8A5100D1F717 /* NicknameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NicknameViewController.h; sourceTree = "<group>"; };
+		7DE43AE21E6F8A5100D1F717 /* NicknameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NicknameViewController.m; sourceTree = "<group>"; };
+		7DE43AE41E6F8AF700D1F717 /* 返回@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@2x.png"; sourceTree = "<group>"; };
+		7DE43AE51E6F8AF700D1F717 /* 返回@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回@3x.png"; sourceTree = "<group>"; };
+		7DE43AE81E6F991500D1F717 /* WYTableViewCellWithBigLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTableViewCellWithBigLabel.h; sourceTree = "<group>"; };
+		7DE43AE91E6F991500D1F717 /* WYTableViewCellWithBigLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewCellWithBigLabel.m; sourceTree = "<group>"; };
+		7DE43AEB1E6F9AD800D1F717 /* SignatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignatureViewController.h; sourceTree = "<group>"; };
+		7DE43AEC1E6F9AD800D1F717 /* SignatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignatureViewController.m; sourceTree = "<group>"; };
+		7DE43AEE1E6FA86000D1F717 /* WYTableViewCellWithBigImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTableViewCellWithBigImageView.h; sourceTree = "<group>"; };
+		7DE43AEF1E6FA86000D1F717 /* WYTableViewCellWithBigImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewCellWithBigImageView.m; sourceTree = "<group>"; };
+		7DE43AF51E6FB08200D1F717 /* WYTableViewCellWithImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYTableViewCellWithImageView.h; sourceTree = "<group>"; };
+		7DE43AF61E6FB08200D1F717 /* WYTableViewCellWithImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYTableViewCellWithImageView.m; sourceTree = "<group>"; };
+		7DE43AF81E6FB47000D1F717 /* 头像占位图.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "头像占位图.jpg"; sourceTree = "<group>"; };
+		7DE43AFA1E6FD27200D1F717 /* WYPickerViews.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = WYPickerViews.gif; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7DE03EA91E6E4AA600BBFE4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7DE03EA31E6E4AA600BBFE4F = {
+			isa = PBXGroup;
+			children = (
+				7DE03EC61E6E4AF900BBFE4F /* WYPickerViews */,
+				7DE03ED01E6E4AF900BBFE4F /* WYTableViewCellWithImageView */,
+				7DE03ED11E6E4AF900BBFE4F /* WYTableViewCellWithLabel */,
+				7DE03EAE1E6E4AA600BBFE4F /* WYEditInfoDemo */,
+				7DE03EAD1E6E4AA600BBFE4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7DE03EAD1E6E4AA600BBFE4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7DE03EAC1E6E4AA600BBFE4F /* WYEditInfoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DE03EAE1E6E4AA600BBFE4F /* WYEditInfoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7DE43AFA1E6FD27200D1F717 /* WYPickerViews.gif */,
+				7DE43AF81E6FB47000D1F717 /* 头像占位图.jpg */,
+				7DE03EB21E6E4AA600BBFE4F /* AppDelegate.h */,
+				7DE03EB31E6E4AA600BBFE4F /* AppDelegate.m */,
+				7DE03EDA1E6E4B1200BBFE4F /* TableViewController.h */,
+				7DE03EDB1E6E4B1200BBFE4F /* TableViewController.m */,
+				7DE03EB81E6E4AA600BBFE4F /* Main.storyboard */,
+				7DE03EBB1E6E4AA600BBFE4F /* Assets.xcassets */,
+				7DE03EBD1E6E4AA600BBFE4F /* LaunchScreen.storyboard */,
+				7DE03EC01E6E4AA600BBFE4F /* Info.plist */,
+				7DE03EAF1E6E4AA600BBFE4F /* Supporting Files */,
+			);
+			path = WYEditInfoDemo;
+			sourceTree = "<group>";
+		};
+		7DE03EAF1E6E4AA600BBFE4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7DE03EB01E6E4AA600BBFE4F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DE03EC61E6E4AF900BBFE4F /* WYPickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				7DE43AE41E6F8AF700D1F717 /* 返回@2x.png */,
+				7DE43AE51E6F8AF700D1F717 /* 返回@3x.png */,
+				7DE03EC71E6E4AF900BBFE4F /* CityData.plist */,
+				7DE43AE11E6F8A5100D1F717 /* NicknameViewController.h */,
+				7DE43AE21E6F8A5100D1F717 /* NicknameViewController.m */,
+				7DE43AEB1E6F9AD800D1F717 /* SignatureViewController.h */,
+				7DE43AEC1E6F9AD800D1F717 /* SignatureViewController.m */,
+				7DE03EE61E6E919000BBFE4F /* WYLongTextInputView.h */,
+				7DE03EE71E6E919000BBFE4F /* WYLongTextInputView.m */,
+				7DE03ECC1E6E4AF900BBFE4F /* WYGenderPickerView.h */,
+				7DE03ECD1E6E4AF900BBFE4F /* WYGenderPickerView.m */,
+				7DE03EC81E6E4AF900BBFE4F /* WYBirthdayPickerView.h */,
+				7DE03EC91E6E4AF900BBFE4F /* WYBirthdayPickerView.m */,
+				7DE03ECE1E6E4AF900BBFE4F /* WYHeightPickerView.h */,
+				7DE03ECF1E6E4AF900BBFE4F /* WYHeightPickerView.m */,
+				7DE03ECA1E6E4AF900BBFE4F /* WYCityPickerView.h */,
+				7DE03ECB1E6E4AF900BBFE4F /* WYCityPickerView.m */,
+			);
+			name = WYPickerViews;
+			path = WYEditInfoDemo/WYPickerViews;
+			sourceTree = "<group>";
+		};
+		7DE03ED01E6E4AF900BBFE4F /* WYTableViewCellWithImageView */ = {
+			isa = PBXGroup;
+			children = (
+				7DE43AF51E6FB08200D1F717 /* WYTableViewCellWithImageView.h */,
+				7DE43AF61E6FB08200D1F717 /* WYTableViewCellWithImageView.m */,
+				7DE43AEE1E6FA86000D1F717 /* WYTableViewCellWithBigImageView.h */,
+				7DE43AEF1E6FA86000D1F717 /* WYTableViewCellWithBigImageView.m */,
+			);
+			name = WYTableViewCellWithImageView;
+			path = WYEditInfoDemo/WYTableViewCellWithImageView;
+			sourceTree = "<group>";
+		};
+		7DE03ED11E6E4AF900BBFE4F /* WYTableViewCellWithLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7DE03ED21E6E4AF900BBFE4F /* WYTableViewCellWithLabel.h */,
+				7DE03ED31E6E4AF900BBFE4F /* WYTableViewCellWithLabel.m */,
+				7DE43AE81E6F991500D1F717 /* WYTableViewCellWithBigLabel.h */,
+				7DE43AE91E6F991500D1F717 /* WYTableViewCellWithBigLabel.m */,
+			);
+			name = WYTableViewCellWithLabel;
+			path = WYEditInfoDemo/WYTableViewCellWithLabel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7DE03EAB1E6E4AA600BBFE4F /* WYEditInfoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7DE03EC31E6E4AA600BBFE4F /* Build configuration list for PBXNativeTarget "WYEditInfoDemo" */;
+			buildPhases = (
+				7DE03EA81E6E4AA600BBFE4F /* Sources */,
+				7DE03EA91E6E4AA600BBFE4F /* Frameworks */,
+				7DE03EAA1E6E4AA600BBFE4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYEditInfoDemo;
+			productName = WYEditInfoDemo;
+			productReference = 7DE03EAC1E6E4AA600BBFE4F /* WYEditInfoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7DE03EA41E6E4AA600BBFE4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "意一yiyi";
+				TargetAttributes = {
+					7DE03EAB1E6E4AA600BBFE4F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6SW3NQ27X4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7DE03EA71E6E4AA600BBFE4F /* Build configuration list for PBXProject "WYEditInfoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7DE03EA31E6E4AA600BBFE4F;
+			productRefGroup = 7DE03EAD1E6E4AA600BBFE4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7DE03EAB1E6E4AA600BBFE4F /* WYEditInfoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7DE03EAA1E6E4AA600BBFE4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE03EBF1E6E4AA600BBFE4F /* LaunchScreen.storyboard in Resources */,
+				7DE43AFB1E6FD27200D1F717 /* WYPickerViews.gif in Resources */,
+				7DE03EBC1E6E4AA600BBFE4F /* Assets.xcassets in Resources */,
+				7DE03EBA1E6E4AA600BBFE4F /* Main.storyboard in Resources */,
+				7DE43AE71E6F8AF700D1F717 /* 返回@3x.png in Resources */,
+				7DE43AE61E6F8AF700D1F717 /* 返回@2x.png in Resources */,
+				7DE03ED41E6E4AF900BBFE4F /* CityData.plist in Resources */,
+				7DE43AF91E6FB47000D1F717 /* 头像占位图.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7DE03EA81E6E4AA600BBFE4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DE43AE31E6F8A5100D1F717 /* NicknameViewController.m in Sources */,
+				7DE43AED1E6F9AD800D1F717 /* SignatureViewController.m in Sources */,
+				7DE43AF71E6FB08200D1F717 /* WYTableViewCellWithImageView.m in Sources */,
+				7DE03EB41E6E4AA600BBFE4F /* AppDelegate.m in Sources */,
+				7DE03EB11E6E4AA600BBFE4F /* main.m in Sources */,
+				7DE03ED71E6E4AF900BBFE4F /* WYGenderPickerView.m in Sources */,
+				7DE03ED91E6E4AF900BBFE4F /* WYTableViewCellWithLabel.m in Sources */,
+				7DE43AF01E6FA86000D1F717 /* WYTableViewCellWithBigImageView.m in Sources */,
+				7DE43AEA1E6F991500D1F717 /* WYTableViewCellWithBigLabel.m in Sources */,
+				7DE03ED51E6E4AF900BBFE4F /* WYBirthdayPickerView.m in Sources */,
+				7DE03ED61E6E4AF900BBFE4F /* WYCityPickerView.m in Sources */,
+				7DE03ED81E6E4AF900BBFE4F /* WYHeightPickerView.m in Sources */,
+				7DE03EDC1E6E4B1200BBFE4F /* TableViewController.m in Sources */,
+				7DE03EE81E6E919000BBFE4F /* WYLongTextInputView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7DE03EB81E6E4AA600BBFE4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE03EB91E6E4AA600BBFE4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7DE03EBD1E6E4AA600BBFE4F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7DE03EBE1E6E4AA600BBFE4F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7DE03EC11E6E4AA600BBFE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7DE03EC21E6E4AA600BBFE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7DE03EC41E6E4AA600BBFE4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6SW3NQ27X4;
+				INFOPLIST_FILE = WYEditInfoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yiyi.WYEditInfoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7DE03EC51E6E4AA600BBFE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6SW3NQ27X4;
+				INFOPLIST_FILE = WYEditInfoDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yiyi.WYEditInfoDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7DE03EA71E6E4AA600BBFE4F /* Build configuration list for PBXProject "WYEditInfoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE03EC11E6E4AA600BBFE4F /* Debug */,
+				7DE03EC21E6E4AA600BBFE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7DE03EC31E6E4AA600BBFE4F /* Build configuration list for PBXNativeTarget "WYEditInfoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DE03EC41E6E4AA600BBFE4F /* Debug */,
+				7DE03EC51E6E4AA600BBFE4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7DE03EA41E6E4AA600BBFE4F /* Project object */;
+}
